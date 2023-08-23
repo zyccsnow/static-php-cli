@@ -26,6 +26,7 @@ function php_compile_args() {
     _php_arg="$_php_arg --enable-session=yes"
     _php_arg="$_php_arg --enable-shared=no"
     _php_arg="$_php_arg --enable-static=yes"
+    _php_arg="$_php_arg --enable-gmp"
     _php_arg="$_php_arg --enable-inline-optimization"
     _php_arg="$_php_arg --with-layout=GNU"
     _php_arg="$_php_arg --with-pear=no"
